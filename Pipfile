@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gdal = "*"
+rasterio = "*"
+fiona = "*"
+matplotlib = "*"
+h5py = "*"
+geopandas = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
