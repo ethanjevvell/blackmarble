@@ -10,6 +10,7 @@ fiona = "*"
 matplotlib = "*"
 h5py = "*"
 geopandas = "*"
+requests = "*"
 
 [dev-packages]
 ipykernel = "*"
