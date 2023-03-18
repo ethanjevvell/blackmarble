@@ -8,7 +8,7 @@ start_url = "https://ladsweb.modaps.eosdis.nasa.gov/api/v2/content/details?produ
 download_links = []
 response = requests.get(start_url)
 
-max_retries = 5
+max_retries = 20
 
 while response.status_code == 200:
 
